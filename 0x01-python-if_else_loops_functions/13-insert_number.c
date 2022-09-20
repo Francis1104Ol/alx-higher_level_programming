@@ -6,8 +6,9 @@
  * @number: The number to insert.
  *
  * Return: If the function fails - NULL.
- *         Otherwise - a pointer to the new node.
- */
+ * Otherwise - a pointer to the new node.
+*/
+
 listint_t *insert_node(listint_t **head, int number)
 {
 	listint_t *node = *head, *new;
