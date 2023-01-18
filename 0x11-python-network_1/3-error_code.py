@@ -13,6 +13,5 @@ def sender():
             print(html.decode("utf-8"))
     except urllib.error.HTTPError as e:
         print("Error code: {}".format(e.code))
-
-if __name__ == "__main__":
-    sender()
+        if __name__ == "__main__":
+            sender()

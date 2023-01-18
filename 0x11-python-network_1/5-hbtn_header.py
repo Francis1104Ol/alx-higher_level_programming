@@ -10,5 +10,5 @@ def header():
 
     print(result.headers.get("X-Request-Id", None))
 
-if __name__ == "__main__":
-    header()
+    if __name__ == "__main__":
+        header()

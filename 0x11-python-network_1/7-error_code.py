@@ -14,6 +14,5 @@ def errorcode():
             print(result.content.decode("utf-8"))
     except KeyError:
         pass
-
-if __name__ == "__main__":
-    errorcode()
+    if __name__ == "__main__":
+        errorcode()
