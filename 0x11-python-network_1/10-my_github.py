@@ -17,6 +17,5 @@ def searchapi():
         print(data["id"])
     except:
         print("None")
-
-if __name__ == "__main__":
-    searchapi()
+        if __name__ == "__main__":
+            searchapi()

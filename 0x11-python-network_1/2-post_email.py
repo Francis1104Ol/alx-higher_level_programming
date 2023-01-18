@@ -15,5 +15,5 @@ def sender():
         html = response.read()
         print(html.decode("utf-8"))
 
-if __name__ == "__main__":
-    sender()
+        if __name__ == "__main__":
+            sender()
